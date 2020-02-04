@@ -1,7 +1,5 @@
 # 📓 Personal Wiki
 
-View the [lesson plan] that accompanies this activity.
-
 ## Step 1: Follow Setup Guide
 
  **⭐️ IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting `<ENTER>` on the last step.<br>**✅ EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki` to `git remote add https://github.com/droxey/makewiki` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
