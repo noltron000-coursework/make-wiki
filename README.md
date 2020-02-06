@@ -2,10 +2,10 @@
 View the [lesson plan] that accompanies this activity.
 
 ## Step 1: Follow Setup Guide
-> **:star: IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting `<ENTER>` on the last step.<br />**:white_check_mark: EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki` to `git remote add https://github.com/droxey/makewiki` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
+> **:star: IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting <kbd>Enter</kbd> on the last step.<br />**:white_check_mark: EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki` to `git remote add https://github.com/droxey/makewiki` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
 1. **In your browser**, create a **[new public repository](https://github.com/new)** on GitHub called `makewiki`.
 1. **In your terminal**, navigate to the directory where you store your projects.
-1. **Paste each line below** into the terminal, *one by one*. **Hit `<Return>` after *each* line**:
+1. **Paste each line below** into the terminal, *one by one*. **Hit <kbd>Enter</kbd> after *each* line**:
 	```bash
 	git clone https://github.com/make-school-labs/makewiki-starter makewiki
 	cd makewiki
@@ -35,7 +35,7 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
 	1. `templates/base.html`
 2. **OPTIONAL**: Move on to the stretch challenges in the code, or enhance the project using the suggestions below.
 
-> **TIP**: Find all challenges by searching the project for instances of the word `CHALLENGE`. To **search all files in your project directory**, press `<Command>` + `<Shift>` + `<F>`, type `CHALLENGE`, and hit `<Return>`.
+> **TIP**: Find all challenges by searching the project for instances of the word `CHALLENGE`. To **search all files in your project directory**, press <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>, type `CHALLENGE`, and hit <kbd>Enter</kbd>.
 
 ## Step 5: Level Up
 ### Suggestions
