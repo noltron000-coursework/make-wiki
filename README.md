@@ -4,16 +4,16 @@
 
  **⭐️ IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting `<ENTER>` on the last step.<br>**✅ EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki` to `git remote add https://github.com/droxey/makewiki` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
 
-1. **In your browser**, create a **[new public repository](https://github.com/new)** on GitHub called `makewiki`.
+1. **In your browser**, create a **[new public repository](https://github.com/new)** on GitHub called `makewiki-v1`.
 2. **In your terminal**, navigate to the directory where you store your projects.
 3. **Paste each line below** into the terminal, *one by one*. **Hit `<Return>` after *each* line**:
 
     ```bash
-    git clone https://github.com/make-school-labs/makewiki-starter makewiki
+    git clone https://github.com/make-school-labs/makewiki-v1
     cd makewiki
     rm -rf .git
     git init
-    git remote add origin https://github.com/YOUR_GITHUB_USERNAME/makewiki
+    git remote add origin https://github.com/YOUR_GITHUB_USERNAME/makewiki-v1
     ```
 
 4. **Open the `makewiki` repository folder** in your IDE.
