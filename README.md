@@ -2,7 +2,7 @@
 
 ## Step 1: Follow Setup Guide
 
- **⭐️ IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting `<ENTER>` on the last step.<br>**✅ EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki` to `git remote add https://github.com/droxey/makewiki` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
+ **⭐️ IMPORTANT**: Change **YOUR_GITHUB_USERNAME** before hitting `<ENTER>` on the last step.<br>**✅ EXAMPLE**: Change `git remote add https://github.com/YOUR_GITHUB_USERNAME/makewiki-v1` to `git remote add https://github.com/droxey/makewiki-v1` for [Dani](https://github.com/droxey/makewiki)'s version of the `makewiki` project.
 
 1. **In your browser**, create a **[new public repository](https://github.com/new)** on GitHub called `makewiki-v1`.
 2. **In your terminal**, navigate to the directory where you store your projects.
