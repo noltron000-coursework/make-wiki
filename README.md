@@ -41,6 +41,8 @@ Add the link to your project in the [Course Tracker](https://make.sc/trackbew1.2
     1. `templates/base.html`
 2. **OPTIONAL**: Move on to the stretch challenges in the code, or enhance the project using the suggestions below.
 
+You will also need to create templates in `wiki/templates/wiki` for use with your view classes.
+
 **TIP**: Find all challenges by searching the project for instances of the word `CHALLENGE`. To **search all files in your project directory**, press `<Command>` + `<Shift>` + `<F>`, type `CHALLENGE`, and hit `<Return>`.
 
 ## Step 5: Level Up
