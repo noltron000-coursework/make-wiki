@@ -28,20 +28,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-'''
-==CHALLENGES==
--> Uncomment the path() for the wiki app below.
-	Use it to direct any request (except `/admin` URLs)
-	to the the `wiki` app's URL configuration.
-	Use the above docstring to guide you if you feel stuck.
--> Make sure Django doesn't give you any
-	warnings or errors when you run the server:
-	-> `python manage.py runserver`.
-'''
-
 urlpatterns = [
 	# Admin Site
 	path('admin/', admin.site.urls),
+
+	# Accounts
+	path('accounts/', include('django.contrib.auth.urls')),
 
 	# Wiki App
 	path('', include('wiki.urls')),

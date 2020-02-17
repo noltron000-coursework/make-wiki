@@ -1,12 +1,12 @@
 # MakeWiki Challenges
 ### Table of Contents
 1. [Authentication & Authorization](#authentication--authorization)
-2. [Core Application](#core-application)
+1. [Core Application](#core-application)
 
 ## Authentication & Authorization
 ### Login & Logout
-- [ ] Add the provided Django authentication views to the project's URLconf.
-- [ ] Test `/accounts/login` in your browser --- see if you can log in using username `admin` and password `djangopony`.
+- [x] Add the provided Django authentication views to the project's URLconf.
+- [x] Test `/accounts/login` in your browser --- see if you can log in using username `admin` and password `djangopony`.
 - [ ] In `base.html`, hide the `New Page` and `Log Out` buttons for unauthenticated users.
 - [ ] When a user clicks `Log Out`, they are logged out of the system, and returned to the homepage.
 - [ ] When a user clicks `Log In`, they are navigated to the Login page.
