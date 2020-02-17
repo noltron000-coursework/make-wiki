@@ -7,10 +7,12 @@
 			{{ page.content|truncatewords_html:30 }}
 			<hr />
 			<div class="text-right">
+				<!--
 				<a
-					href="{% url 'wiki-details-page' page.slug %}"
+					href="%{ url 'wiki-details-page' page.slug }%"
 					title="Read More"
 				>
+				--->
 					Read More
 				</a>
 			</div>
