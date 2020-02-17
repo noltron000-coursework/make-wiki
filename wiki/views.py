@@ -21,7 +21,7 @@ class PageList(ListView):
 		GET Pages
 		-> Returns a list of wiki pages.
 		'''
-		# == TODO ==
+		# ==TODO==
 		# -> Get more intimate with .get_queryset() and .all()
 		# -> Get more familiar with render(), and its params
 		# -> Understand what the request param is
@@ -63,7 +63,7 @@ class PageDetail(DetailView):
 		'''
 		Returns a specific of wiki page by slug.
 		'''
-		# == TODO ==
+		# ==TODO==
 		# -> Get more intimate with .get_queryset() and .get()
 		# -> Get more familiar with render(), and its params
 		# -> Understand the slug__iexact param
