@@ -30,11 +30,11 @@
 				makewiki
 			</a>
 			<form class="form-inline ml-auto">
-				<div class="text-white">
-					Hello,
-					<strong>USERNAME</strong>!
-				</div>
 				{% if request.user.is_authenticated %}
+					<div class="text-white">
+						Hello,
+						<strong>{{ request.user }}</strong>!
+					</div>
 					<a
 						href="#"
 						class="btn btn-success ml-4"
@@ -83,7 +83,6 @@
 			</div>
 			{% endblock %}
 		</main>
-
 		<script
 			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
