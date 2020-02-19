@@ -1,15 +1,15 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
 {% block content %}
 	<h3>
 		Log In
-		<small class="text-muted">
+		<small class='text-muted'>
 			to create your own wiki pages!
 		</small>
 	</h3>
 	<hr>
-	<div class="row">
-		<div class="col">
+	<div class='row'>
+		<div class='col'>
 			{% if form.errors %}
 				<p>
 					There was some sort of error.
@@ -29,50 +29,50 @@
 			{% endif %}
 
 			<form
-				method="post"
-				action="{% url 'login' %}"
-				class="mx-auto"
+				method='post'
+				action='{% url 'login' %}'
+				class='mx-auto'
 			>
 				{% csrf_token %}
-				<div class="form-group row">
-					<div class="col-8">
-						<label for="id_username">
+				<div class='form-group row'>
+					<div class='col-8'>
+						<label for='id_username'>
 							Username
 						</label>
 						<input
-							class="form-control"
-							type="text"
-							name="username"
-							id="id_username"
+							class='form-control'
+							type='text'
+							name='username'
+							id='id_username'
 							required
 						/>
 					</div>
 				</div>
-				<div class="form-group row">
-					<div class="col-8">
-						<label for="id_password">
+				<div class='form-group row'>
+					<div class='col-8'>
+						<label for='id_password'>
 							Password
 						</label>
 						<input
-							class="form-control"
-							type="password"
-							name="password"
-							id="id_password"
+							class='form-control'
+							type='password'
+							name='password'
+							id='id_password'
 							required
 						/>
 					</div>
 				</div>
-				<div class="form-group row">
-					<div class="col-8">
+				<div class='form-group row'>
+					<div class='col-8'>
 						<input
-							type="submit"
-							value="login"
-							class="btn btn-success"
+							type='submit'
+							value='login'
+							class='btn btn-success'
 						/>
 						<input
-							type="hidden"
-							name="next"
-							value="{{ next }}"
+							type='hidden'
+							name='next'
+							value='{{ next }}'
 						/>
 					</div>
 				</div>
