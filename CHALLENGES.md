@@ -13,7 +13,7 @@
 - [x] Replace `Hello, USERNAME` text with the username of the logged-in user, and only show it when the user is logged in.
 
 ### Signup
-- [ ] Create a new app named `accounts`. Add it to the `INSTALLED_APPS` list in `settings.py`.
+- [x] Create a new app named `accounts`. Add it to the `INSTALLED_APPS` list in `settings.py`.
 - [ ] Create a view for signing up:
 	- [ ] Must subclass `django.views.generic.CreateView`.
 	- [ ] Set `form_class` to `django.auth.forms.UserCreationForm`.
