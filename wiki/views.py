@@ -33,7 +33,7 @@ class PageList(ListView):
 class PageDetail(DetailView):
 	'''
 	Renders a specific page based on it's slug.
-	
+
 	==CHALLENGES==
 	1. GET: Have a homepage showing the details of your page.
 	2. Add a descriptive docstring for PageDetail.
@@ -45,13 +45,13 @@ class PageDetail(DetailView):
 		-> This ModelForm allows edits in existing Page objects.
 	2. GET: Render an edit form below the page details.
 	3. POST: Check if the data in the form is valid.
-		-> If True, save the data. 
+		-> If True, save the data.
 			Redirect back to the DetailsView.
 		-> If False, display all the errors in the template.
 			Do not redirect; display above the form fields.
 
 	==NOTE==
-	-> After successfully editing a Page: 
+	-> After successfully editing a Page:
 		-> Use Django Messages to "flash" a success message.
 			`{PAGE_TITLE} has been successfully updated.`
 	-> Don't hard-coding the path to redirect to.

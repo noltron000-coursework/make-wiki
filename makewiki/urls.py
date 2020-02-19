@@ -10,7 +10,7 @@ For more information please see:
 Function views
 -> Add an import:
 	-> `from my_app import views`
--> Add a URL to urlpatterns: 
+-> Add a URL to urlpatterns:
 	-> `path('', views.home, name='home')`
 
 Class-based views
