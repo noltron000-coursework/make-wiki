@@ -33,6 +33,7 @@ urlpatterns = [
 	path('admin/', admin.site.urls),
 
 	# Accounts
+	path('accounts/', include('accounts.urls')),
 	path('accounts/', include('django.contrib.auth.urls')),
 
 	# Wiki App
