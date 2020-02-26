@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+	# Django Things
 	'django.contrib.admin',
 	'django.contrib.auth',
 	'django.contrib.contenttypes',
@@ -38,7 +39,12 @@ INSTALLED_APPS = [
 	'django.contrib.messages',
 	'django.contrib.staticfiles',
 
-	'wiki'
+	# 3rd-Party Apps
+	'rest_framework',
+
+	# My Apps
+	'accounts',
+	'wiki',
 ]
 
 MIDDLEWARE = [
