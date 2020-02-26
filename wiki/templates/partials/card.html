@@ -1,28 +1,25 @@
-<div class="card mb-3">
-	<h5 class="card-header ">
+<div class='card mb-3'>
+	<h5 class='card-header '>
 		{{ page.title }}
 	</h5>
-	<div class="card-body border-dark">
-		<p class="card-text text-dark">
+	<div class='card-body border-dark'>
+		<p class='card-text text-dark'>
 			{{ page.content|truncatewords_html:30 }}
 			<hr />
-			<div class="text-right">
-				<!--
-				==CHALLENGES==
+			<div class='text-right'>
 				<a
-					href="%{ url 'wiki-details-page' page.slug }%"
-					title="Read More"
+					href='{% url "wiki-details-page" page.slug %}'
+					title='Read More'
 				>
-				--->
 					Read More
 				</a>
 			</div>
 		</p>
 	</div>
-	<div class="card-footer">
-		<small class="text-muted">
+	<div class='card-footer'>
+		<small class='text-muted'>
 			Last updated
-			{{ page.modified|date:"SHORT_DATETIME_FORMAT" }}
+			{{ page.modified|date:'SHORT_DATETIME_FORMAT' }}
 			by
 			<b>{{ page.author.username }}</b>
 		</small>
