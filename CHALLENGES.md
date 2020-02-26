@@ -18,9 +18,9 @@
 	- [x] Must subclass `django.views.generic.CreateView`.
 	- [x] Set `form_class` to `django.auth.forms.UserCreationForm`.
 	- [x] Render the `registration/signup.html` template.
-- [ ] In `accounts/urls.py`, link `SignupView` to a URL named `signup`.
-- [ ] Add `accounts.urls` to the project's URLconf.
-- [ ] When a user clicks <kbd>Sign Up</kbd>, they are presented with a form to create an account, and can submit it successfully.
+- [x] In `accounts/urls.py`, link `SignupView` to a URL named `signup`.
+- [x] Add `accounts.urls` to the project's URLconf.
+- [x] When a user clicks <kbd>Sign Up</kbd>, they are presented with a form to create an account, and they can submit it successfully.
 
 ### Stretch Challenges
 - [ ] Add a <kbd>Forgot Password</kbd> link to the Log in page.
